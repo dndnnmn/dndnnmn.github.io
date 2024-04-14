@@ -9,13 +9,13 @@
 <body>
 
     <div class="container">
-         <h2 class="question">Are you feeling okay, Ky?</h2>
+         <h2 class="question"> hoy lilith matulog ka na  </h2>
          <div class="image-container">
              <img src="https://media.tenor.com/GOabrbLMl4AAAAAM/plink-cat-plink.gif" alt="Valentine's Day Image" id="valentine-image">
          </div>
          <div class="btn__group">
-             <button class="btn__yes" id="yesButton">YES</button>
-             <button class="btn__no" id="noButton">NO</button>
+             <button class="btn__yes" id="yesButton">Fine</button>
+             <button class="btn__no" id="noButton">AYOKO</button>
          </div>
      </div>
      
@@ -28,7 +28,7 @@
     
         noButton.addEventListener('click', () => {
             clickCount++;
-            const messages = ["sure?", "u sure ?", "sure na 'yan ha", "wehhhh", "okieeeeeeeeeeeeeeeeeeeee", "plsss say yesSSSSSSS", "c'monnn", "im crying here"];
+            const messages = ["Puyat pa", "tulog na boii", "tama na jabolll", "tskkk", "paaaag  natulog ka cute ka", "plsss say yesSSSSSSS", "c'monnn", "im crying here"];
             
             if (clickCount <= messages.length) {
                 yesButton.textContent = messages[clickCount - 1];
@@ -50,7 +50,7 @@
             yesButton.style.display = 'none'; // Hide the "YES" button
             noButton.style.display = 'none'; // Hide the "NO" button
             gifImage.src = "https://media1.tenor.com/m/eaDPAe9OLSoAAAAd/cat-kissing.gif"; // Change the image source
-                question.textContent = "heyy, u are worth it, always remember that !! okay?"; // Change the question text
+                question.textContent = "'yan tama 'yan, sleepwell po"; // Change the question text
         });
     </script>
     
