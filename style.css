@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 90vh;
-    background-color: #7d2ae8;
+    background-color: rgb(230, 73, 73);
 }
 
 .btn__no {
@@ -41,6 +41,7 @@ body{
 
 .question{
     text-align: center;
+    padding-bottom: 10px;
 }
 
 #valentine-image {
